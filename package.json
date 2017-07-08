@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "iconv-lite": "^0.4.17",
+    "jquery": "^3.2.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "start": "NODE_ENV=development node index.js",
+    "build": "webpack"
+  }
+}

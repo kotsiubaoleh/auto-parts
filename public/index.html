@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <form class="search-form">
+            <input class="form-control" type="text" id="search-input">
+            <button class="btn btn-success">Поиск</button>
+        </form>
+        <div class="row">
+            <table class="table table-bordered table-hover" id="results">
+                <thead>
+                <tr>
+                    <td>Номер</td>
+                    <td>Наименование</td>
+                    <td>Производитель</td>
+                    <td>Цена</td>
+                </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="modal fade" id="narrow-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    Уточните поиск
+                </div>
+                <div class="modal-body" id="narrow-options">
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-success" id="narrow-btn" data-toggle="modal" data-target="#narrow-modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/jquery.min.js" type="application/javascript"></script>
+    <script src="scripts/bootstrap.min.js" type="application/javascript"></script>
+    <script src="scripts/index.js" type="application/javascript"></script>
+</body>
+</html>
